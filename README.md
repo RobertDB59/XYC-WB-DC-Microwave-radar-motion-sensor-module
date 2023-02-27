@@ -4,8 +4,10 @@ Doppler technology ( microwave induction) -- active ( sensor: human/moving objec
 
 • Detection:
 when someone or an object enters the detection range, the output of the high-frequency induction module, Vout, outputs TTL high. After a preset delay period, the output resets and reverts to TTL low level.
+
 • Delay:
 after the detection mode is started, and there is human or object activity, the module output terminal Vout will continue to output TTL high level.  When there is no movement detected because the person or object is no longer in range of the module, the output reverts to low TTL level after a delay periode.
+
 • Photosensitive control (optional) :
 control the output state of the module according to the external light intensity to achieve energy saving effect. This pin can also be used with a resitor bridge to control the output state of the module with an external programming board.
 
